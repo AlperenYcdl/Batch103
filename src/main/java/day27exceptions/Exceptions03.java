@@ -20,7 +20,7 @@ public class Exceptions03 {
     //Ogrenci notlarini yazdiran bir method olusturunuz
     public static void printGrades(double grade) throws IllegalGradeException  {
         if(grade<0 || grade>100){
-            throw new IllegalGradeException("Grade 0 dan az 100 den cok olamaz");
+            throw new IllegalGradeException("Grade 0 dan az 100 den cok olamaz...");
         }else{
             System.out.println(grade);
         }
