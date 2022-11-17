@@ -20,14 +20,15 @@ public class Varargs01 {
     public static void main(String[] args) {
 
         int r1 = toplama(2, 3);
-        System.out.println(r1);
+        System.out.println(r1);//5
 
         int r2 = toplama(2, 3, 4 );
-        System.out.println(r2);
+        System.out.println(r2);//9
 
 
         int r3 = toplama(2, 3, 4 ,5 ,6 ,7 ,8 ,9 );
-        System.out.println(r3);
+        System.out.println(r3);//44
+
     }
     //    ///iki sayinin toplamini return eden bir method olusturunuz..
     //    public static int toplama(int a, int b ){
@@ -45,7 +46,7 @@ public class Varargs01 {
     //    //// Istedimiz kadar sayiyi toplayabilecegimiz bir method olusturalim
     //    // ...a  varargs denir... varargs in arkasina array calisir...
 
-    public static int toplama(int...a){
+    public static int toplama(int... a){
 
         int sum = 0;
         for (int w : a ) {

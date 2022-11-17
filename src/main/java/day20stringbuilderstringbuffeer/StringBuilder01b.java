@@ -1,8 +1,9 @@
-package day13loopSarrays.day20stringbuilderstringbuffer;
+package day20stringbuilderstringbuffeer;
 
 public class StringBuilder01b {
 
       /*
+
         1)"StringBuilder" Java'da bir Class'dir.
         2)"StringBuilder", String olusturmaya yarar.
         3)"String" Class varken nicin "StringBuilder" a ihtiyac duyariz?
@@ -50,7 +51,7 @@ public class StringBuilder01b {
         //StringBuilder'larda character sayisi nasil bulunur? ==> length() method'u ile bulunur
         StringBuilder strb3 = new StringBuilder();
         strb3.append("Cat");
-        strb3.append("xxxxxxxxxxxxxxx");
+        strb3.append("xxxxxxxxxxxxxxx" );
 
         int numOfChar = strb3.length();
         System.out.println(numOfChar);//18
@@ -105,9 +106,10 @@ public class StringBuilder01b {
         StringBuilder a = new StringBuilder("Iava");
         StringBuilder b = new StringBuilder("Java");
 
-        //a.compareTo(b) method'u i)StringBuilder'lar tamamiyla ayni ise 0 verir.
+        //a.compareTo(b) method'u
+        //                         i)StringBuilder'lar tamamiyla ayni ise 0 verir.
         //                        ii)"a" alfabetik sirada "b" den sonra gelirse pozitif olarak aradaki alfabetik siralama farkini gosterir
-        //                        iii)"a" alfabetik sirada "b" den once gelirse negatif olarak aradaki alfabetik siralama farkini gosterir
+        //                       iii)"a" alfabetik sirada "b" den once gelirse negatif olarak aradaki alfabetik siralama farkini gosterir
         int sonuc = a.compareTo(b);
         System.out.println(sonuc);
 

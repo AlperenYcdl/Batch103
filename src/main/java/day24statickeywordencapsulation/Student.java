@@ -19,24 +19,36 @@ private boolean retired=false;
 
 
     public String getStdId() {
+
         return stdId;
     }
 
     public double getGpa() {
+
         return gpa;
     }
 
     public boolean isRetired() {
+
         return retired;
     }
 
 
+    public void setStdId(String stdId) {
+        this.stdId = stdId;
+    }
 
+    public void setStdName(String stdName) {
+        this.stdName = stdName;
+    }
 
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 
-
-
-
+    public void setRetired(boolean retired) {
+        this.retired = retired;
+    }
 }
 
 

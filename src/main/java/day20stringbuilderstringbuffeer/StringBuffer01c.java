@@ -1,4 +1,4 @@
-package day13loopSarrays.day20stringbuilderstringbuffer;
+package day20stringbuilderstringbuffeer;
 
 public class StringBuffer01c {
 
